@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap");
+body {
+  background-color: #22b573;
+}
+
+.titleWrapper {
+  padding: 35px;
+}
+
+.titleWrapper h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  -webkit-transform: scaleX(0.75);
+          transform: scaleX(0.75);
+}
+
+.titleWrapper .hamburger {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+.titleWrapper .hamburger .menu {
+  width: 80px;
+}
+
+.cardsWrapper {
+  padding: 2% 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 30px;
+}
+
+.cardsWrapper .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+  width: 30%;
+  min-width: 250px;
+}
+
+.cardsWrapper .block .cards {
+  background-color: black;
+  padding: 30px;
+  height: 100%;
+}
+
+.cardsWrapper .block .cards h3 {
+  color: #a77d38;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cardsWrapper .block .footer {
+  color: #e8b74f;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cardsWrapper .card1 {
+  color: white;
+}
+
+.cardsWrapper .card2 {
+  background-color: white !important;
+  color: black;
+}
+
+.cardsWrapper .card3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.cardsWrapper .card3 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.cardsWrapper .card3 a svg {
+  margin: auto;
+}
+
+.cardsWrapper .card3 h3 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 1240px) {
+  .cardsWrapper {
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cardsWrapper .block {
+    width: 100%;
+  }
+  .cardsWrapper .card3 {
+    -ms-flex-preferred-size: 30% !important;
+        flex-basis: 30% !important;
+  }
+  .titleWrapper h1 {
+    text-align: left;
+    font-size: 16px;
+  }
+  .titleWrapper .hamburger .menu {
+    width: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

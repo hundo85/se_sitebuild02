@@ -1,2 +1,2 @@
 # se_sitebuild02
-Practice for state exam.
+Practice for the state exam.
